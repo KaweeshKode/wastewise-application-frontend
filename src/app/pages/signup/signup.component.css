@@ -1,0 +1,48 @@
+.custom-card {
+    background-color: #90B680;
+    border-color: #90B680;
+    border-radius: 5px;
+}
+.custom-form {
+    margin: 30px 50px;
+}
+.btn-custom {
+    background-color: #216D00;
+    border-color: #216D00;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.btn-custom:active {
+    background-color: #216D00;
+    border-color: #216D00;
+}
+.custom-star {
+    color: red;
+}
+
+/* change the radio button style to square */
+.square-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #216D00;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.square-radio:checked {
+    background-color: #216D00;
+}
+.square-radio:checked::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}

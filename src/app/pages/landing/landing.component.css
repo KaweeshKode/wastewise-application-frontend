@@ -1,0 +1,15 @@
+.card {
+    background-color: #90B680;
+    border-color: #90B680;
+}
+.btn-custom {
+    background-color: #216D00;
+    border-color: #216D00;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.btn-custom:active {
+    background-color: #216D00;
+    border-color: #216D00;
+}

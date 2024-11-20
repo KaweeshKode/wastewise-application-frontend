@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-signin',
+  selector: 'app-sidebar',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './signin.component.html',
-  styleUrl: './signin.component.css'
+  templateUrl: './sidebar.component.html',
+  styleUrl: './sidebar.component.css'
 })
-export class SigninComponent {
+export class SidebarComponent {
 
 }

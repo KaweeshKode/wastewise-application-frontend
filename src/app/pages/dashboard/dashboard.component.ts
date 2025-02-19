@@ -3,12 +3,12 @@ import { SidebarComponent } from "../sidebar/sidebar.component";
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-dashboard',
   standalone: true,
   imports: [SidebarComponent, RouterOutlet],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './dashboard.component.html',
+  styleUrl: './dashboard.component.css'
 })
-export class HomeComponent {
+export class DashboardComponent {
 
 }

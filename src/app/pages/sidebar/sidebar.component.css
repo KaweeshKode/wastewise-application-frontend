@@ -1,6 +1,7 @@
 .bg-body-color {
     background-color: #90b680;
 }
-.active {
-    background-color: #216d00;
+.active-button:active {
+    background-color: #216d00 !important;
+    color: #ffffff !important;
 }

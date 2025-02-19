@@ -1,0 +1,21 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#Count</th>
+            <th scope="col">Team ID</th>
+            <th scope="col">Team Name</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        <tr *ngFor="let mct of mctList, index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{mct.teamId}}</td>
+            <td>{{mct.teamName}}</td>
+            <td>
+                <button class="btn btn-primary" (click)="updateTeam()"><i class="bi bi-pencil-square"> Edit</i></button>
+                &nbsp;
+                <button class="btn btn-danger" (click)="deleteTeam(mct.teamId)"><i class="bi bi-trash"> Delete</i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>
